@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="<?= base_url; ?>assets/css/bootstrap.css">
 
     <title><?= $data["title"]; ?></title>
-    <link rel="stylesheet" href="Error.css" />
     <link rel="icon" href="<?= base_url; ?>assets/img/icon/<?= favicon; ?>" />
   </head>
 <body>
