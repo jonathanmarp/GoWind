@@ -9,9 +9,10 @@
             "email": "jonathanmarpaung80@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {"jonathanmarp\\gowind\\": "src/"}
-    },
     "minimum-stability": "alpha",
-    "require": {}
+    "autoload": {
+       "psr-4": {"jonathanmarp\\gowind\\": "src/"}
+     },
+     "minimum-stability": "alpha",
+     "require": {}
 }
