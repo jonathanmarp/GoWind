@@ -2,11 +2,17 @@
     "name": "jonathanmarp/gowind",
     "description": "You can use the framework. it uses the apache system. so if there is an error you can tell me directly to github to make a statement there is a bug in this framework. Sorry, this framework still doesn't have a guide. THANK YOU",
     "license": "Apache-2.0 License",
+    "type": "framework",
     "authors": [
         {
             "name": "jonathanmarp",
             "email": "jonathanmarpaung80@gmail.com"
         }
     ],
-    "minimum-stability": "alpha"
+    "minimum-stability": "alpha",
+    "autoload": {
+       "psr-4": {"jonathanmarp\\gowind\\": "src/"}
+     },
+     "minimum-stability": "alpha",
+     "require": {}
 }
