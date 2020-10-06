@@ -1,5 +1,7 @@
 <?php
 
+namespace jonathanmarp\gowind;
+
 session_start();
 
 class Index {
