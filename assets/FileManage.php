@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+if(isset($_SESSION['GiveAccessFile'])){
+ if($_SESSION['GiveAccessFile'] != true) {
+  header("Location: ../FileManage.php");
+ }
+} else {
+ header("Location: ../FileManage.php");
+}
+?>
 <!DOCTYPE html>
 <html>
  <head>
