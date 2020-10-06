@@ -7,11 +7,17 @@ class Home extends Controller
 	// You Can Give Parameter this example: $this->view("Template", $param);
 	// In Template You Give Is $param -> $data
     // If You Not Change Anything Make This $data['title'] = "your title";
+
     public function index()
     {
         $data = [
             "title" => "Welcome In GoWind"
         ];
+
+        if(file)
+        {
+            
+        }
 
         $this->view("template/header", $data);
         $this->view("Home/index");
