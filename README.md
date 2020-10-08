@@ -1,6 +1,7 @@
 # GoWind
 [![GitHub license](https://img.shields.io/github/license/jonathanmarp/GoWind)](https://github.com/jonathanmarp/GoWind/blob/main/LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/jonathanmarp/GoWind)
+[![Total Downloads](https://poser.pugx.org/jonathanmarp/GoWind/downloads)](//packagist.org/packages/jonathanmarp/GoWind)
 
 ## Supported Versions For PHP
 
