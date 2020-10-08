@@ -23,7 +23,7 @@
       <div class="row">
           <div class="col-sm">
             <div class="container">
-              <img src="<?= base_url; ?>assets/img/rocket.gif" alt="rocket-live">
+              <img src="<?= base_url; ?>assets/img/Rocket.gif" width="300" height="300" alt="rocket-live">
             </div>
           </div>
           <div class="col-sm">
