@@ -85,43 +85,11 @@
                 </div>
             </div>
             <div class="container">
-                <h1>Controller</h1>
+                <h1>encrypt word</h1>
                 <hr />
-                <p>Where PHP File Controller. We recommend that the controller works automatically so you don't have to change the php controller so you can immediately use it.</p>
-                <p>So how to use the controller automatically. So the first is the url class and the method is taken from the url. so how does it work example url: website.com/public/Home/index. Public is a php url and index that has been created for the vital framework.</p>
-                <p>So / Home home will be a class so the code is like this class Home extends Controller so that class will be called. / index is the method that will be called after the class and it must be if you change the methos in the app to first so the method that happens is the public function first. If the index is public function index</p>
-                <p>if there are exaggerations such as website.com/public/home/index/any. / any will be a parameter so its use is like this public function index ($ param1) if there are two, how about website.com/public/home/index/any/any. so the public function index ($ param1, $ param2) if redundant is the same. so if it is not written in the url of the class or method it is fine because it will be called automatically</p>
-                <p>
-                    <code>
-                        <em>
-                            $url = $this->parseURL(); <br />
-                            <br />
-                            if(file_exists('../app/controllers/' . $url[0] . '.php')) {<br />
-                                $this->controller = $url[0];<br />
-                                unset($url[0]);<br />
-                            }<br />
-                            <br />
-                            require_once '../app/controllers/' . $this->controller . '.php';<br />
-                            $this->controller = new $this->controller;<br />
-                            <br />
-                            // method<br />
-                            if(isset($url[1])) {<br />
-                                if(method_exists($this->controller, $url[1])) {<br />
-                                    $this->method = $url[1];<br />
-                                    unset($url[1]);<br />
-                                }<br />
-                            }<br />
-                            <br />
-                            // params<br />
-                            if(!empty($url)) {<br />
-                                $this->params = array_values($url);<br />
-                            }<br />
-                            <br />
-                            // Run If Ready<br />
-                            call_user_func_array([$this->controller, $this->method], $this->params);
-                        </em>
-                    </code>
-                </p>
+                <pThis is the use of SSL to do this because SSL is one of the most secure methods to encrypt in PHP. So You Can See The Script And Apply Logic Thinking To See The Work Of The Script</p>
+                <p>encrypt is located in the controller class so encrypt is a method that resides from the controller. public function encrypt ($ simple_string) {$ options = 0; $ ciphering = "AES-128-CTR"; $ encryption_iv = '1234567891011121'; $ iv_length = openssl_cipher_iv_length ($ ciphering); $ encryption_key = "qindfobwdjfb"; $ encryption = openssl_encrypt ($ simple_string, $ ciphering, $ encryption_key, $ options, $ encryption_iv); return $ encryption;}</p>
+              <p>ok now how to using $this->encrypt($string) : string</p>
             </div>
         </main>
     </div>
