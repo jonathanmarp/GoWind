@@ -14,11 +14,6 @@ class Home extends Controller
             "title" => "Welcome In GoWind"
         ];
 
-        if(file)
-        {
-            
-        }
-
         $this->view("template/header", $data);
         $this->view("Home/index");
         $this->view("template/footer");
