@@ -99,10 +99,10 @@ class VanDB {
 		return $id;
 	}
 
-	public function Registry($name, $arr)
+	public function Registry($arr)
 	{
-    $arrs = $arr;
-    $arrs['id'] = $this->MathKey();
+		$arrs = $arr;
+		$arrs['id'] = $this->MathKey();
 		$this->arrayFile[] = $arrs;
 	}
 
@@ -124,8 +124,8 @@ class VanDB {
 	}
 	public function Set($id, $arr)
 	{
-    $arrs = $arr;
-    $arrs['id'] = $id;
+		$arrs = $arr;
+		$arrs['id'] = $id;
 		$this->arrayFile[$id] = $arrs;
 	}
 
