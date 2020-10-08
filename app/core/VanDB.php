@@ -99,18 +99,11 @@ class VanDB {
 		return $id;
 	}
 
-	public function Registry($name, $title, $descrypt, $time)
+	public function Registry($name, $arr)
 	{
-		// Change This { Parameter And Array }
-
-		$arr = [
-			"id" => $this->MathKey(), // Dont Remove This Part
-			"name" => $name,
-			"Title" => $title,
-			"Descrypt" => $descrypt,
-			"Time" => $time
-		];
-		$this->arrayFile[] = $arr;
+    $arrs = $arr;
+    $arrs['id'] = $this->MathKey();
+		$this->arrayFile[] = $arrs;
 	}
 
 
@@ -129,16 +122,11 @@ class VanDB {
 		$this->Read();
 		return $this->arrayFile;
 	}
-	public function Set($id, $name, $title, $descrypt, $time)
+	public function Set($id, $arr)
 	{
-		$arr = [
-			"id" => $this->MathKey(), // Dont Remove This Part
-			"name" => $name,
-			"Title" => $title,
-			"Descrypt" => $descrypt,
-			"Time" => $time
-		];
-		$this->arrayFile[$id] = $arr;	
+    $arrs = $arr;
+    $arrs['id'] = $id;
+		$this->arrayFile[$id] = $arrs;
 	}
 
 }
