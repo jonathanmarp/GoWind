@@ -36,13 +36,13 @@ class Api {
 	public function Exec()
 	{
 		try {
-			$this->arrs = $this->binaryToString($this->arrs);
-			$this->arrs = $this->decrypt($this->arrs);
-			$this->arrs = base64_decode($this->arrs);
+			$arr = $this->binaryToString($this->arrs);
+			$arr = $this->decrypt($this->arrs);
+			$arr = base64_decode($this->arrs);
 
 			http_response_code(200);
 
-			echo $this->arrs;
+			echo $arr;
 		} catch(Execption $e) {
 			http_response_code(404);
 			echo json_encode(
