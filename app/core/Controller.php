@@ -13,7 +13,6 @@ class Controller {
     public function usingAPI()
     {
         require_once '../app/core/Api.php';
-        // For Fixed This 19090c35fcee2fd87e088334fb207c293f6ad7ae
     }
     public function encrypt($simple_string)
     {
