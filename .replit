@@ -1,2 +1,4 @@
 language = "php7"
 run = "php -S 0.0.0.0:8000 -t ."
+
+// you can run in php5 or php7
