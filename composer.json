@@ -5,10 +5,10 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "repl.it user",
-            "email": "replituser@example.com"
+            "name": "DenfenseLaferen_Albert",
+            "email": "defenselaferen@gmail.com"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "v2.2-alpha",
     "require": {}
 }
