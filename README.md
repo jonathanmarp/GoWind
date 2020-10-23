@@ -30,3 +30,7 @@ in the app / core, you can search to find out what you need to know, actually th
 security, utf8. That way you can hold the experts of this framework well and become a master of this framework, security and 
 utf8 are taken from codeignither3. and thank you for using this framework. php can be from 5> 7. The error will run if you 
 use xampp or localhost. That is all and thank you.
+
+# If You wont using composer you can make this line in your command
+
+` composer create-project jonathanmarp/gowind `
