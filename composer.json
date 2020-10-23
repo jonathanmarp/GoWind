@@ -9,6 +9,8 @@
             "email": "defenselaferen@gmail.com"
         }
     ],
-    "minimum-stability": "v2.2-alpha",
-    "require": {}
+    "minimum-stability": "alpha",
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    }
 }
