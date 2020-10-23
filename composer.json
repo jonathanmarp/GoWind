@@ -2,15 +2,15 @@
     "name": "runner/go-wind",
     "description": "This framework is new for testing the security of this framework when there is an error or an error can tell an error or bug on this github. Security is still tight.",
     "type": "project",
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    },
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "DenfenseLaferen_Albert",
-            "email": "defenselaferen@gmail.com"
+            "name": "repl.it user",
+            "email": "replituser@example.com"
         }
     ],
-    "minimum-stability": "alpha",
-    "require": {
-        "fzaninotto/faker": "^1.9"
-    }
+    "minimum-stability": "alpha"
 }
